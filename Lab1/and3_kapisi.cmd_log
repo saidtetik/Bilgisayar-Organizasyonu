@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "F:/Lab1/and3_kapisi.xst" -ofn "F:/Lab1/and3_kapisi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I and3_kapisi.ngc and3_kapisi.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o and3_kapisi_map.ncd and3_kapisi.ngd and3_kapisi.pcf 
+par -w -intstyle ise -ol high -mt off and3_kapisi_map.ncd and3_kapisi.ncd and3_kapisi.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml and3_kapisi.twx and3_kapisi.ncd -o and3_kapisi.twr and3_kapisi.pcf 
+xst -intstyle ise -ifn "F:/Lab1/and3_kapisi.xst" -ofn "F:/Lab1/and3_kapisi.syr" 
+xst -intstyle ise -ifn "F:/Lab1/and3_kapisi.xst" -ofn "F:/Lab1/and3_kapisi.syr" 
+xst -intstyle ise -ifn "F:/Lab1/and3_kapisi.xst" -ofn "F:/Lab1/and3_kapisi.syr" 
+xst -intstyle ise -ifn "F:/Lab1/and3_kapisi.xst" -ofn "F:/Lab1/and3_kapisi.syr" 

@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "F:/Lab1/devre2.xst" -ofn "F:/Lab1/devre2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I devre2.ngc devre2.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o devre2_map.ncd devre2.ngd devre2.pcf 
+par -w -intstyle ise -ol high -mt off devre2_map.ncd devre2.ncd devre2.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml devre2.twx devre2.ncd -o devre2.twr devre2.pcf 
+xst -intstyle ise -ifn "F:/Lab1/devre2.xst" -ofn "F:/Lab1/devre2.syr" 
+xst -intstyle ise -ifn "F:/Lab1/devre2.xst" -ofn "F:/Lab1/devre2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I devre2.ngc devre2.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o devre2_map.ncd devre2.ngd devre2.pcf 
+par -w -intstyle ise -ol high -mt off devre2_map.ncd devre2.ncd devre2.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml devre2.twx devre2.ncd -o devre2.twr devre2.pcf 

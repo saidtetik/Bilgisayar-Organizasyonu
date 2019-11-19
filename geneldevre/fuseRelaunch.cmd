@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Bot lab/geneldevre/devre_isim_beh.exe" -prj "D:/Bot lab/geneldevre/devre_beh.prj" "work.devre" 

@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "F:/Lab1/Decoder2_4.xst" -ofn "F:/Lab1/Decoder2_4.syr" 
+xst -intstyle ise -ifn "F:/Lab1/Decoder2_4.xst" -ofn "F:/Lab1/Decoder2_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Decoder2_4.ngc Decoder2_4.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Decoder2_4_map.ncd Decoder2_4.ngd Decoder2_4.pcf 
+par -w -intstyle ise -ol high -mt off Decoder2_4_map.ncd Decoder2_4.ncd Decoder2_4.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml Decoder2_4.twx Decoder2_4.ncd -o Decoder2_4.twr Decoder2_4.pcf 
+xst -intstyle ise -ifn "F:/Lab1/Decoder2_4.xst" -ofn "F:/Lab1/Decoder2_4.syr" 
+xst -intstyle ise -ifn "F:/Lab1/Decoder2_4.xst" -ofn "F:/Lab1/Decoder2_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Decoder2_4.ngc Decoder2_4.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Decoder2_4_map.ncd Decoder2_4.ngd Decoder2_4.pcf 
+par -w -intstyle ise -ol high -mt off Decoder2_4_map.ncd Decoder2_4.ncd Decoder2_4.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml Decoder2_4.twx Decoder2_4.ncd -o Decoder2_4.twr Decoder2_4.pcf 
+xst -intstyle ise -ifn "F:/Lab1/Decoder2_4.xst" -ofn "F:/Lab1/Decoder2_4.syr" 
+xst -intstyle ise -ifn "F:/Lab1/Decoder2_4.xst" -ofn "F:/Lab1/Decoder2_4.syr" 
+xst -intstyle ise -ifn "F:/Lab1/Decoder2_4.xst" -ofn "F:/Lab1/Decoder2_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Decoder2_4.ngc Decoder2_4.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Decoder2_4_map.ncd Decoder2_4.ngd Decoder2_4.pcf 
+par -w -intstyle ise -ol high -mt off Decoder2_4_map.ncd Decoder2_4.ncd Decoder2_4.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml Decoder2_4.twx Decoder2_4.ncd -o Decoder2_4.twr Decoder2_4.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Decoder2_4.ngc Decoder2_4.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Decoder2_4_map.ncd Decoder2_4.ngd Decoder2_4.pcf 
+par -w -intstyle ise -ol high -mt off Decoder2_4_map.ncd Decoder2_4.ncd Decoder2_4.pcf 
+xst -intstyle ise -ifn "F:/Lab1/Decoder2_4.xst" -ofn "F:/Lab1/Decoder2_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I Decoder2_4.ngc Decoder2_4.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Decoder2_4_map.ncd Decoder2_4.ngd Decoder2_4.pcf 
+par -w -intstyle ise -ol high -mt off Decoder2_4_map.ncd Decoder2_4.ncd Decoder2_4.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml Decoder2_4.twx Decoder2_4.ncd -o Decoder2_4.twr Decoder2_4.pcf 
+xst -intstyle ise -ifn "F:/Lab1/Decoder2_4.xst" -ofn "F:/Lab1/Decoder2_4.syr" 

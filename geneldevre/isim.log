@@ -1,0 +1,40 @@
+ISim log file
+Running: D:\Bot lab\geneldevre\devre_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Bot lab/geneldevre/devre_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# put a 1101
+# put b 1001
+# put x 1
+# run
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# put a 0000
+# put b 0000
+# put x 1
+# run
+# put a 0011
+# put b 0011
+# put x 0
+# run
+# put 0100
+Incorrect usage of command 'put'
+Usage: put <hdl_object_name> <value> [-radix <type>]
+for detailed help use 'help put'
+# put a 0100
+# put b 0011
+# put x 1
+# run
+# put a 1100
+# put b 1110
+# put x 1
+# run

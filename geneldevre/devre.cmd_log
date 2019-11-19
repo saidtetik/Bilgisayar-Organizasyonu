@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/Bot lab/geneldevre/devre.xst" -ofn "D:/Bot lab/geneldevre/devre.syr" 
+xst -intstyle ise -ifn "D:/Bot lab/geneldevre/devre.xst" -ofn "D:/Bot lab/geneldevre/devre.syr" 
+xst -intstyle ise -ifn "D:/Bot lab/geneldevre/devre.xst" -ofn "D:/Bot lab/geneldevre/devre.syr" 
+xst -intstyle ise -ifn "D:/Bot lab/geneldevre/devre.xst" -ofn "D:/Bot lab/geneldevre/devre.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "devre.ngc" devre.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o devre_map.ncd devre.ngd devre.pcf 
+par -w -intstyle ise -ol high -t 1 devre_map.ncd devre.ncd devre.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml devre.twx devre.ncd -o devre.twr devre.pcf 

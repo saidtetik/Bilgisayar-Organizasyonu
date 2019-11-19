@@ -1,0 +1,22 @@
+ISim log file
+Running: F:\Lab1\Decoder2_4_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/Lab1/lab1_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# put x0 1
+# run
+# put x1 0
+# put enable 0
+# run
+# put enable 1
+# run
+# put x1 1
+# run

@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2I
+-n 3 -fastpaths -xml Decoder2_4.twx Decoder2_4.ncd -o Decoder2_4.twr
+Decoder2_4.pcf
+
+Design file:              Decoder2_4.ncd
+Physical constraint file: Decoder2_4.pcf
+Device,package,speed:     xa7a100t,csg324,I,-2I (ADVANCED 1.02 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Enable         |Y<0>           |    6.739|
+Enable         |Y<1>           |    6.939|
+Enable         |Y<2>           |    6.911|
+Enable         |Y<3>           |    6.839|
+X0             |Y<0>           |    6.596|
+X0             |Y<1>           |    6.801|
+X0             |Y<2>           |    6.775|
+X0             |Y<3>           |    6.708|
+X1             |Y<0>           |    6.455|
+X1             |Y<1>           |    7.010|
+X1             |Y<2>           |    6.616|
+X1             |Y<3>           |    6.905|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Oct 31 15:27:25 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4946 MB
+
+
+

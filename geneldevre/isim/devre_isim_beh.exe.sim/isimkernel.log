@@ -1,0 +1,30 @@
+Command line:
+   devre_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50816
+
+Mon Nov 18 11:49:28 2019
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5154.89 Meg
+
+ Total Signals          : 147
+ Total Nets             : 33
+ Total Signal Drivers   : 24
+ Total Blocks           : 38
+ Total Primitive Blocks : 25
+ Total Processes        : 24
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 393
+Total Line Count : 24
+Total Line Count : 24
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 4683.03 Meg
+
+Mon Nov 18 11:57:36 2019
+

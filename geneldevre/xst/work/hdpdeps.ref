@@ -1,0 +1,29 @@
+V3 18
+FL "D:/Bot lab/geneldevre/devre.vhd" 2019/11/18.11:40:26 P.28xd
+EN work/VE_KAPISI 1574066429 FL "D:/Bot lab/geneldevre/devre.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/VE_KAPISI/veri_akisi 1574066430 \
+      FL "D:/Bot lab/geneldevre/devre.vhd" EN work/VE_KAPISI 1574066429
+EN work/VEYA_KAPISI 1574066431 \
+      FL "D:/Bot lab/geneldevre/devre.vhd" PB ieee/std_logic_1164 1341906176
+AR work/VEYA_KAPISI/veri_akisi 1574066432 \
+      FL "D:/Bot lab/geneldevre/devre.vhd" EN work/VEYA_KAPISI 1574066431
+EN work/XOR_KAPISI 1574066433 \
+      FL "D:/Bot lab/geneldevre/devre.vhd" PB ieee/std_logic_1164 1341906176
+AR work/XOR_KAPISI/veri_akisi 1574066434 \
+      FL "D:/Bot lab/geneldevre/devre.vhd" EN work/XOR_KAPISI 1574066433
+EN work/YT 1574066435 \
+      FL "D:/Bot lab/geneldevre/devre.vhd" PB ieee/std_logic_1164 1341906176
+AR work/YT/yapisal 1574066436 \
+      FL "D:/Bot lab/geneldevre/devre.vhd" EN work/YT 1574066435 CP XOR_KAPISI \
+      CP VE_KAPISI
+EN work/TT 1574066437 FL "D:/Bot lab/geneldevre/devre.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/TT/yapisal 1574066438 \
+      FL "D:/Bot lab/geneldevre/devre.vhd" EN work/TT 1574066437 CP YT \
+      CP VEYA_KAPISI
+EN work/devre 1574066439 FL "D:/Bot lab/geneldevre/devre.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/devre/Behavioral 1574066440 \
+      FL "D:/Bot lab/geneldevre/devre.vhd" EN work/devre 1574066439 CP XOR_KAPISI \
+      CP TT
